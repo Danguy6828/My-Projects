@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counter Project</title>
+    </head>
+    <body>
+        <h1>Counter</h1>
+
+        <label id="counter">0</label>
+        <br>
+        <button id="decrease">-</button>
+        <button id="increase">+</button>
+
+        <script>
+            //I am creating a local variable to keep track of the button clicks.
+            var count = 0;
+            //I am using the ID applied to the elements in the body section to specify which element I am manipulating with queryselector
+            const counter = document.querySelector('#counter');
+
+            const minButton = document.querySelector('#decrease');
+            const addButton = document.querySelector('#increase');
+
+            //When the respective button is clicked, it adds or subtracts to the local count variable before replacing the actual counter number in the page itself
+            minButton.addEventListener('click', () => {
+                count -= 1;
+                counter.textContent = count;
+            })
+
+            addButton.addEventListener('click', () => {
+                count += 1;
+                counter.textContent = count;
+            })
+        </script>
+    </body>
+</html>
