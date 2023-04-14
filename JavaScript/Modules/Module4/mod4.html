@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>      
+        <label for="numOne">Please enter your first number:</label>
+        <input id="numOne" type="number"></input>
+        <br>
+        <label for="numTwo">Please enter your second number:</label>
+        <input id="numTwo" type="number"></input>
+        <br>
+        <p>Please choose an order of operations: (Values that are not valid numbers will be treated as 0)</p>
+        <button onclick="alert(+document.getElementById('numOne').value + +document.getElementById('numTwo').value)">Addition</button>
+        <button onclick="alert(+document.getElementById('numOne').value - +document.getElementById('numTwo').value)">Subtraction</button>
+        <button onclick="alert(+document.getElementById('numOne').value * +document.getElementById('numTwo').value)">Multiplication</button>
+        <button onclick="alert(+document.getElementById('numOne').value / +document.getElementById('numTwo').value)">Division</button>
+    </body>
+</html>
