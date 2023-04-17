@@ -3,15 +3,47 @@
     <head></head>
     <body>      
         <label for="numOne">Please enter your first number:</label>
-        <input id="numOne" type="number"></input>
+        <input id="numInOne" type="number"></input>
         <br>
         <label for="numTwo">Please enter your second number:</label>
-        <input id="numTwo" type="number"></input>
+        <input id="numInTwo" type="number"></input>
         <br>
         <p>Please choose an order of operations: (Values that are not valid numbers will be treated as 0)</p>
-        <button onclick="alert(+document.getElementById('numOne').value + +document.getElementById('numTwo').value)">Addition</button>
-        <button onclick="alert(+document.getElementById('numOne').value - +document.getElementById('numTwo').value)">Subtraction</button>
-        <button onclick="alert(+document.getElementById('numOne').value * +document.getElementById('numTwo').value)">Multiplication</button>
-        <button onclick="alert(+document.getElementById('numOne').value / +document.getElementById('numTwo').value)">Division</button>
+        <button id="add">Addition</button>
+        <button id="sub">Subtraction</button>
+        <button id="mul">Multiplication</button>
+        <button id="div">Division</button>
+
+        <script>
+            var result = 0;
+
+            const inputOne = document.querySelector('#numInOne');
+            const inputTwo = document.querySelector('#numInTwo');
+
+            const addClick = document.querySelector('#add');
+            const subClick = document.querySelector('#sub');
+            const mulClick = document.querySelector('#mul');
+            const divClick = document.querySelector('#div');
+
+            addClick.addEventListener('click', () => {
+                result = (Number(inputOne.value) + Number(inputTwo.value));
+                alert(result);
+            })
+
+            subClick.addEventListener('click', () => {
+                result = (Number(inputOne.value) - Number(inputTwo.value));
+                alert(result);
+            })
+
+            mulClick.addEventListener('click', () => {
+                result = (Number(inputOne.value) * Number(inputTwo.value));
+                alert(result);
+            })
+
+            divClick.addEventListener('click', () => {
+                result = (Number(inputOne.value) / Number(inputTwo.value));
+                alert(result);
+            })
+        </script>
     </body>
 </html>
