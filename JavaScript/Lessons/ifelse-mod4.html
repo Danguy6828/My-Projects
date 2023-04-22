@@ -1,0 +1,131 @@
+let input = prompt("Please input a number: ");
+
+if (input > 90 && input < 110) {
+    alert("Bingo!");
+} else {
+    alert("Miss!");
+}
+
+let number = prompt("Enter a random number");
+let message = (number > 90 && number < 110) ? "Bingo!": "Miss";
+alert(message);
+
+
+let gate = prompt("Choose gate: a, b, or c");
+let win = false;
+
+switch (gate) {
+    case "a":
+        alert("Gate A: empty");
+        break;
+<!-- switch (gate) {
+    case "a":
+    case "A":
+    case 1:
+    case "1":
+        alert("Gate A: empty");
+        break; -->
+        
+    case "b":
+        alert("Gate B: main prize");
+        win = true;
+        break;
+    case "c":
+        alert("Gate C: empty");
+        break;
+    default:
+        alert("No gate " + String(gate));
+}
+
+if (win) {
+    alert("Winner!");
+}
+
+
+let cities = [
+    { name: "New York", population: 18.65e6 },
+    { name: "Cairo", population: 18.82e6 },
+    { name: "Mumbai", population: 19.32e6 },
+    { name: "São Paulo", population: 20.88e6 },
+    { name: "Mexico City", population: 21.34e6 },
+    { name: "Shanghai", population: 23.48e6 },
+    { name: "Delhi", population: 25.87e6 },
+    { name: "Tokyo", population: 37.26e6 }
+];
+
+
+for (let city of cities) {
+    if (city.population > 20e6) {
+        console.log(`${city.name} (${city.population})`);
+    }
+}
+
+
+let user = {
+    name: "Calvin",
+    surname: "Hart",
+    age: 66,
+    email: "CalvinMHart@teleworm.us"
+};
+
+for (let key in user) {
+    console.log(`${key} -> ${user[key]}`);
+};
+
+
+let upperLimit = Number(prompt("Enter upper limit"));
+let lowerLimit = Number(prompt("Enter lower limit"));
+
+if (!Number.isNaN(upperLimit) && !Number.isNaN(lowerLimit) && upperLimit > lowerLimit) {
+    for (i = upperLimit; i >= lowerLimit; i -= 10) {
+        console.log(i);
+    }
+}
+
+
+examples:
+let numbers = [21, 45, 100, 12, 11, 78, 61, 4, 39, 22];
+
+for (let number of numbers) {
+    console.log(number);
+}
+console.log("this is a break");
+for (let number of numbers) {
+    if (number % 2 == 0) {
+        console.log(number);
+    }}
+console.log("this is a break 2");
+for (let number of numbers) {
+    if (number > 10 && number < 60) {
+        console.log(number);
+    }}
+
+
+    let movies = [];
+    while (true) {
+        let title = prompt("Enter movie title");
+        let rating = prompt("Enter movie rating (imdb)");
+    
+        if (title === null || rating === null) {
+            break
+        } else {
+            movies.push({
+                title: title,
+                rating: Number(rating)
+            });
+        }
+    }
+
+
+    let vessel = {
+        Latitude: 40.07288,
+        Longitude: 154.48535,
+        Course: 285.6,
+        Speed: 14.0,
+        IMO: 9175717,
+        Name: "MARENO"
+    }
+    
+    for( let key in vessel) { 
+        console.log(`${key} -> ${vessel[key]}`); 
+    }
