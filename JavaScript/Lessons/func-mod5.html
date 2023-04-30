@@ -1,0 +1,120 @@
+let numbers = [50, 10, 40, 30, 20];
+let sorted = numbers.sort((a, b) => a - b);
+console.log(sorted); // [10, 20, 30, 40, 50]
+
+
+function add(a, b) {
+    if (!Number.isInteger(a) || !Number.isInteger(b)) {
+        return NaN;
+    }
+    return a + b;
+}
+
+function sub(a, b) {
+    if (!Number.isInteger(a) || !Number.isInteger(b)) {
+        return NaN;
+    }
+    return a - b;
+}
+
+function mult(a, b) {
+    if (!Number.isInteger(a) || !Number.isInteger(b)) {
+        return NaN;
+    }
+    return a * b;
+}
+// or
+let add = (a, b) => !Number.isInteger(a) || !Number.isInteger(b) ? NaN : a + b;
+let sub = (a, b) => !Number.isInteger(a) || !Number.isInteger(b) ? NaN : a - b;
+let mult = (a, b) => !Number.isInteger(a) || !Number.isInteger(b) ? NaN : a * b;
+
+console.log(add(12, 10)); // -> 22
+console.log(mult(12, 10.1)); // -> NaN
+
+let action = (callback, a, b) => callback(a, b);
+// or
+let action = function (callback, a, b) {
+    return callback(a, b);
+}
+// or
+function action(callback, a, b) {
+    return callback(a, b);
+}
+
+console.log(action(add, 12, 10)); // -> 22
+console.log(action(sub, 12, 10)); // -> 2
+console.log(action(mult, 10, 10.1)); // -> NaN
+
+
+let counter = 1;
+let intervalId = setInterval(function () {
+    console.log(counter++);
+}, 2000);
+setTimeout(function () {
+    clearInterval(intervalId)
+}, 20000);
+// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 - print out (to the console) consecutive integers 10 times, in two-second intervals
+
+
+//Recursion
+let fibbRec = function (n) {
+    let retVal = 0;
+    if (n != 0) {
+        if (n === 1) {
+            retVal = 1;
+        } else {
+            retVal = fibbRec(n - 1) + fibbRec(n - 2);
+        }
+    }
+    return retVal;
+}
+// or
+let fibb = n => n == 0 ? 0 : (n == 1 ? 1 : fibb(n - 1) + fibb(n - 2));
+
+console.log(fibbRec(4)); // -> 3
+console.log(fibbRec(7)); // -> 13
+
+
+let contacts = [{
+    name: "Maxwell Wright",
+    phone: "(0191) 719 6495",
+    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+    }, {
+    name: "Raja Villarreal",
+    phone: "0866 398 2895",
+    email: "posuere.vulputate@sed.com"
+    }, {
+    name: "Helen Richards",
+    phone: "0800 1111",
+    email: "libero@convallis.edu"
+    }];
+    
+function showContact(list, index) {
+    if (list instanceof Array && list[index]) {
+        console.log(`${list[index].name} / ${list[index].phone} / ${list[index].email}`);
+    }
+}
+        
+showContact(contacts, 2);
+
+function showAllContacts(list) {
+    if (list instanceof Array) {
+        for (contact of list) {
+            console.log(`${contact.name} / ${contact.phone} / ${contact.email}`);
+        }
+    }
+}
+showAllContacts(contacts);
+
+function addNewContact(list, name, phone, email) {
+    if (list instanceof Array && (name, phone, email != "")) {
+        list.push({
+            name: name,
+            phone: phone,
+            email: email
+            });
+    }
+}
+addNewContact(contacts, "John", 142141415, "daburr@mail.com");
+
+showAllContacts(contacts);
