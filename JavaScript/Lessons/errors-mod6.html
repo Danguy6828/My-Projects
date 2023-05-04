@@ -1,0 +1,92 @@
+try {
+    console.log('abc'); // -> abc
+    conole.log('abc');
+} catch (error) {  
+    console.log(error.message); // -> conole is not defined 
+}
+
+
+let a = -2;
+try {
+    a = b;
+} catch (error) {
+    if (error instanceof ReferenceError) {
+        console.log("Reference error, reset a to -2"); // -> Reference error, reset a to -2
+        a = -2;
+    } else {
+        console.log("Other error - " + error);
+    }
+}
+console.log(a); // -> -2
+
+let a = 10;
+try {
+    a = b;  // ReferenceError
+} finally {
+    console.log(a); // -> 10
+}
+console.log(a);
+
+let a = 10;
+try {
+    a = b; // First ReferenceError
+} catch (error) {
+    try {
+        console.log(b); // Second ReferenceError
+    } catch {
+        console.log("Second catch!"); // -> Second catch!
+    }
+} finally {
+    console.log("Finally!"); // -> Finally!
+}
+
+
+console.log("start"); // -> start
+throw 100; // -> Uncaught 100
+console.log("end");
+
+Function factorial(n) {
+    if (n > 20) {
+        throw new RangeError("Max value 20");
+        ...
+    }}
+console.log(factorial(20)); // -> 2432902008176640000
+console.log(factorial(1000)); // -> Uncaught RangeError: Max value 20
+
+
+function div(a, b) {
+    if (b == 0) {
+        throw new RangeError("Cannot divide by 0");
+    }
+        return a/b;
+}
+
+console.log(div(20, 10)); // -> 2
+console.log(div(1,0));// -> RangeError: Cannot divide by 0
+
+let numbers = [10, 40, 0, 20, 50];
+for (let i = 0; i < numbers.length; i++) {
+    let result;
+    try {
+        result = div(1000, numbers[i]);
+    } catch (e) {
+        result = e.message;
+    }
+    console.log(result);
+}
+
+
+console.log("before outer() call"); // -> before outer() call
+debugger;
+console.log(outer());
+console.log("after outer() call");
+
+
+let part = 0;
+console.time('Leibniz');
+for (let k = 0; k < 10000000; k++) {
+    part = part + ((-1) ** k) / (2 * k + 1);
+}
+console.timeEnd('Leibniz'); // -> Leibniz: 456.60498046875 ms
+let pi = part * 4;
+console.log(pi); // -> 3.1415925535897915
