@@ -1,0 +1,45 @@
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.AssemblyInfo.cs
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\bin\Debug\net7.0\ParsingShapes.exe
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\bin\Debug\net7.0\ParsingShapes.deps.json
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\bin\Debug\net7.0\ParsingShapes.runtimeconfig.json
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\bin\Debug\net7.0\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\bin\Debug\net7.0\ParsingShapes.pdb
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\refint\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.pdb
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ParsingShapes.genruntimeconfig.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapes\obj\Debug\net7.0\ref\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.AssemblyInfo.cs
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\refint\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.pdb
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.exe
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.deps.json
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.runtimeconfig.json
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.dll
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.pdb
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.genruntimeconfig.cache
+C:\Users\david\Desktop\neo folder\Assignments\ParsingShapesCont\obj\Debug\net7.0\ref\ParsingShapes.dll
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.exe
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.deps.json
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.runtimeconfig.json
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.dll
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\bin\Debug\net7.0\ParsingShapes.pdb
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.csproj.AssemblyReference.cache
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.AssemblyInfoInputs.cache
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.AssemblyInfo.cs
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.csproj.CoreCompileInputs.cache
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.dll
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\refint\ParsingShapes.dll
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.pdb
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ParsingShapes.genruntimeconfig.cache
+C:\Users\socia\testgit\CSharp\Assignments\ParsingShapesCont\obj\Debug\net7.0\ref\ParsingShapes.dll

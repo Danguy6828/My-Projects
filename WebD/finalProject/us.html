@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>David's Travels - Within the US</title>
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>David's Travel Page</h1>
+            <ul class = "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vietnam.html">Vietnam</a></li>
+                <li><a href="us.html">US Cities</a></li>
+                <li><a href="japan.html">Japan</a></li>
+            </ul>        
+        </header>
+        <section class = "container">
+            <div class = "first-column">
+                <img src = "us1.jpg" alt="NewYork">
+                <img src = "us2.jpg" alt="LasVegas">
+                <img src = "us3.jpg" alt="Chicago">
+            </div>
+            <div class = "second-column">
+                <p><h2>Cities in the United States</h2></p>
+                <p>While it may not be a different country, I have traveled to many major US cities in the past. Sometimes it was just with family and other times it was also with family.</p>
+                <br>
+                <p><h3>New York City</h3></p>
+                <p>For my trip to New York City, I went with my siblings and met up with my cousin who lived in Canada. We walked around the main areas such as Times Square.
+                    The next day, my siblings and cousin went to attend a concert while I explored around on my own. 
+                    One unfortunate choice we made however was to go during the Summer. It was very hard to enjoy what New York City had to offer while trying not to get heat stroke. Not many places to sit either.</p>
+                <br>
+                <p><h3>Las Vegas</h3></p>
+                <p>This time, I went to Las Vegas with my entire family. It was a very hot and crowded experience that I did not enjoy as much as I had hoped. 
+                    I also learned that gambling was not my thing. I spent about $20 on a table and left once I got bored. Most of my time was spent looking at tourist attractions and exploring the casino.</p>
+                <br>
+                <p><h3>Chicago</h3></p>
+                <p>This trip was made with my siblings again where we went to explore in the comfort of Winter. We did not have to worry about the heat but the cold did bring us down a bit.
+                    One of my favorite parts of the trip was the hotel we stayed in. It was on one of the ports and we had a very beautiful view of the city right outside of our window.
+                </p>
+            </div>
+            <div class = "third-column">
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/kuzzzL_98H4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <script>
+            $('img').click(
+                function(){
+                    $(this).toggleClass('clicked');
+                }
+            )
+        </script>
+    </body>
+</html>

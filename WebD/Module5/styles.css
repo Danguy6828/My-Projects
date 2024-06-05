@@ -1,0 +1,21 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3 {
+    color: aquamarine;
+    text-align: center;
+    padding: 2%;
+}
+
+ol {
+    color: seagreen;
+}

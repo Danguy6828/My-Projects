@@ -1,0 +1,63 @@
+.halves {
+    background: teal;
+    padding: 20px;
+    margin: 10px;
+}
+
+.thirds {
+    background: slategray;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media (min-width: 800px) {
+    .row {
+        display: flex;
+    }
+
+    .halves {
+        width: 50%;
+    }
+
+    .thirds {
+        width: 33%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .row {
+        background: rebeccapurple;
+        padding: 50px;
+    }
+}
+
+.hover-cube {
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    transition: 2s ease-in;
+    float:left;
+}
+
+.hover-cube:hover {
+    background-color: rgb(77, 126, 169);
+    transform: rotate(200deg);
+    width: 90px;
+    height: 90px;
+}
+
+.click-cube {
+    background-color: rgb(36, 122, 98);
+    width: 150px;
+    height: 150px;
+    transition: 2s ease-out;
+    float:right;
+}
+
+.click-cube.clicked {
+    background-color: rgb(134, 189, 236);
+    transform: rotate(200deg);
+    width: 90px;
+    height: 90px;
+}

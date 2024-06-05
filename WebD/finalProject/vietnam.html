@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>David's Travels - Vietnam</title>
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>David's Travel Page</h1>
+            <ul class = "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vietnam.html">Vietnam</a></li>
+                <li><a href="us.html">US Cities</a></li>
+                <li><a href="japan.html">Japan</a></li>
+            </ul>        
+        </header>
+        <section class = "container">
+            <div class = "first-column">
+                <img src = "vn1.jpg" alt="Vietnam1">
+                <img src = "vn2.jpg" alt="Vietnam2">
+                <img src = "vn3.jpg" alt="Vietnam3">
+            </div>
+            <div class = "second-column">
+                <p><h2>Vietnam</h2></p>
+                <p>When I traveled to vietnam in 2016, I was fresh in college and was returning to my homeland. I have never really lived in Vietnam since I only lived there until I was 2 years old. 
+                    Every experience there was new to me and carried many confused greetings to people that only knew me when I was a baby. It was difficult to get used to the differences in culture such as the language barrier and riding motorcycles to get everywhere.
+                    In the two months there, I visited many different areas. One of which being Vinpearl. </p>
+                <br>
+                <p>Vinpearl is a very large and popular amusement park in Vietnam. One notable aspect of the park is that you ride on gondolas in order to reach the main area. They had one of the largest food courts and stages that I have ever seen.
+                    It even had its own full sized aquarium. Along with that, there were a wide variety of shows going on such as water shows or interactive traditional dance performances. It is also the location of my favorite photo out of the entire trip. Hard to believe that nothing in this rainbow colored shot was edited.
+                </p>
+                <p>Another place that I visited with my family was the Hon Ong resort. It was about a 2 hour boat ride to the location and I was forcing myself not to throw up the entire ride and back. It featured a very nice beach area and lots of shops and natural springs to visit. There were also many cultural stops to visit.
+                    Unfortunately, my time there was cut short due to a very downpour that lasted for 3 hours before I was able to leave the resort.
+                </p>
+            </div>
+            <div class = "third-column">
+                <iframe width="360" height="215" src="http://www.youtube.com/embed/U0foqq5oaCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <script>
+            $('img').click(
+                function(){
+                    $(this).toggleClass('clicked');
+                }
+            )
+        </script>
+    </body>
+</html>

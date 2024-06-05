@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>David's Travels - Homepage</title>
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>David's Travel Page</h1>
+            <ul class = "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vietnam.html">Vietnam</a></li>
+                <li><a href="us.html">US Cities</a></li>
+                <li><a href="japan.html">Japan</a></li>
+            </ul>        
+        </header>
+        <section class = "container">
+            <div class = "first-column">
+                <img src = "hm1.jpg" alt="Home1">
+            </div>
+            <div class = "second-column">
+                <p><h2>Welcome to my Travel Site!</h2></p>
+                <p>Hi! Welcome to my own personal travel webpage where I will show off and describe some of the places that I have travelled to before. To navigate to each webpage, click the links at the top right of the page.
+                    With each page, there will be an image or video to show off some of the places that I have been to. These will be shown either on the right or left side of the text on each page. 
+                    Images can also be clicked to be made temporarily larger and can be clicked again to shrink. I hope you enjoy this digital tour!</p>
+            </div>
+            <div class = "third-column">
+                <p>If you are interested in providing some feedback, please enter you name, email, and comment below:</p>
+                <br>
+                <form action="" id="contactInfo" method="get">
+                    <p>
+                        <label for="name">Please enter your name:</label>
+                        <input name="name" id="name" type="text" required>
+                    </p>
+                    <p>
+                        <label for="email">Please enter your email:</label>
+                        <input name="email" id="email" type="email" required>
+                    </p>
+                    <p>
+                        <label for="review">Enter your review here:</label>
+                        <textarea name="review" id="description"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="submit">
+                    </p>
+                    <p>
+                        <input type="reset" value="reset">
+                    </p>
+                </form>
+            </div>
+        </section>
+        <script>
+            $('img').click(
+                function(){
+                    $(this).toggleClass('clicked');
+                });
+            
+            var formList = document.getElementById('contactInfo');
+            formList.addEventListener('submit', function() {
+                var nameInput = document.getElementById('name');
+                alert('Thank you ' + nameInput.value + ", your review has been submitted!");
+            });
+        </script>
+    </body>
+</html>

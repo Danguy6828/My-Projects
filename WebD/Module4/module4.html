@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <title>Module 4</title>
+        <link rel="stylesheet" href="styles.css">
+        <script
+			  src="https://code.jquery.com/jquery-3.6.3.min.js"
+			  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+			  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "row">
+            <div class = "halves">
+                <p>This is the top left column</p>
+            </div>
+            <div class = "halves">
+                <p>This is the top right column</p>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "thirds">
+                <p>This is the bottom left column</p>
+            </div>
+            <div class = "thirds">
+                <p>This column is perfect</p>
+            </div>
+            <div class = "thirds">
+                <p>This is the bottom right column</p>
+            </div>
+        </div>
+        <div class = "hover-cube">&nbsp;</div>
+        <div class = "click-cube">&nbsp;</div>
+
+        <script>
+            $('.click-cube').click(
+                function(){
+                    $(this).toggleClass('clicked');
+                }
+            );
+        </script>
+    </body>
+</html>

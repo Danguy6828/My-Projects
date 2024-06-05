@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>David's Travels - Japan</title>
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>David's Travel Page</h1>
+            <ul class = "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vietnam.html">Vietnam</a></li>
+                <li><a href="us.html">US Cities</a></li>
+                <li><a href="japan.html">Japan</a></li>
+            </ul>        
+        </header>
+        <section class = "container">
+            <div class = "first-column">
+                <img src = "jp1.jpg" alt="Airport">
+                <img src = "jp2.jpg" alt="Food">
+            </div>
+            <div class = "second-column">
+                <p><h2>Japan</h2></p>
+                <p>I unfortunately barely was in Japan on my way to Vietnam. When I arrived at Narita International Airport, I spent my entire 3 hours there exploring the airport to see what was offered.
+                    It was a very large airport that had a wide variety of shops. I was unable to see everything that was there, even by power walking. I hope next time, I can actually explore Japan outside of its very large airport.</p>
+                <br>
+                <p>Also something to note that the flight to Japan was definitely the longest I have ever been on a plane. Surprisingly for an 18 hour flight, it was the most comfortable flight I've been on.
+                    American planes always give me serious motion sickness, but the Japanese plane did not get me sick at all. It also had some very nice meals provided.</p>
+            </div>
+            <div class = "third-column">
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/GUy4v_AmAjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <script>
+            $('img').click(
+                function(){
+                    $(this).toggleClass('clicked');
+                }
+            )
+        </script>
+    </body>
+</html>

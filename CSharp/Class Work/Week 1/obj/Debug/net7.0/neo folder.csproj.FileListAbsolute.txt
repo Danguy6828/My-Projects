@@ -1,0 +1,15 @@
+C:\Users\david\Desktop\neo folder\bin\Debug\net7.0\neo folder.exe
+C:\Users\david\Desktop\neo folder\bin\Debug\net7.0\neo folder.deps.json
+C:\Users\david\Desktop\neo folder\bin\Debug\net7.0\neo folder.runtimeconfig.json
+C:\Users\david\Desktop\neo folder\bin\Debug\net7.0\neo folder.dll
+C:\Users\david\Desktop\neo folder\bin\Debug\net7.0\neo folder.pdb
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.AssemblyInfo.cs
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.dll
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\refint\neo folder.dll
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.pdb
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\neo folder.genruntimeconfig.cache
+C:\Users\david\Desktop\neo folder\obj\Debug\net7.0\ref\neo folder.dll

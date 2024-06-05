@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+header {
+    width: auto;
+}
+.navbar {
+    display: flex;
+    float: inherit;
+    margin-bottom: 5%;
+    background: darkblue;
+}
+.navbar li {
+    list-style: none;
+    margin: 25px;
+}
+.navbar li a {
+    color: slateblue;
+    font-weight: lighter;
+}
+.container {
+    clear: both;
+    display: flex;
+}
+h1, h2, h3 {
+    text-align: center;
+    font-style: oblique;
+}
+img {
+    width: 300px;
+}
+.second-column {
+    padding: 30px;
+}
+.third-column {
+    background: darkgray;
+}
+footer {
+    background: cornflowerblue;
+    text-align: center;
+    padding: 2%;
+}

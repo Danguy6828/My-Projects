@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+    <head>
+        <title>Module 5</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Module 5 Assignment</h1>
+        <p>This page will take in the names that you enter and print out a list of the names in alphabetical order.</p>
+        <script>
+            var nameList = new Array();
+            var i = 0
+
+            do {
+                var namePrompt = window.prompt('Please enter a name, or enter nothing to print names list.', '');
+                if (namePrompt > ' ') nameList[i] = namePrompt;
+                i += 1
+            } while (namePrompt > ' ');
+
+            document.write('<h3>You have entered ' + (nameList.length) + ' name(s).</h3>');
+
+            sortedNames = nameList.sort();
+
+            document.write('<ol>');
+                for (name in sortedNames) {
+                    document.write('<li>' + sortedNames[name] + '</li>');
+                }
+            document.write('</ol>');
+        </script>
+    </body>
+</html>
